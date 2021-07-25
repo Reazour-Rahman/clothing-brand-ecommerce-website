@@ -1,0 +1,64 @@
+/* header style  */
+.header-background{
+    margin-top: 0;
+    width: 100%;
+    background-color: #373b3e;
+}
+
+/* navigation offcanvose style  */
+.menu-bar i{
+    font-size: 30px;
+    color: white;
+}
+.menu-bar:hover i{
+    color: crimson;
+}
+/* inside menu bar  */
+.offcanvas-body ul li{
+    list-style-type: none;
+    border-bottom: 2px groove;
+}
+.offcanvas-body ul li:hover{
+    background-color: #373b3e;
+}
+.offcanvas-body ul li:hover a{
+    color: rgb(14, 172, 158);
+}
+.offcanvas-body ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+/* carousel */
+.rotate{
+    transform: rotate(45deg);
+}
+
+/******************************
+ CSS Under line hover effect
+------------------------------ */
+
+.underline-hover{
+    font-weight: 700px;
+    background: none;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.underline-hover::after{
+    content: '';
+    height: 2px;
+    width: 0%;
+    background-color: rgb(214, 18, 18);
+    display: block;
+    transition: .5s ease-in-out;
+}
+
+.underline-hover:hover::after{
+    content: '';
+    height: 2px;
+    width: 100%;
+    background-color: black;
+    display: block;
+}

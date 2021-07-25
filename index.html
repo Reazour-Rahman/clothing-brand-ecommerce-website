@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link with style sheet -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- link with bootstrap file -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- link with google font -->
+    <!-- link with favicon -->
+    <!-- link with font awesome kit -->
+    <script src="https://kit.fontawesome.com/c2629e9dd3.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header class="header-background">
+        <!-- menu bar -->
+        <section class="">
+                <div class="d-flex justify-content-between align-items-center pt-3 container container-sm px-0">
+                    <div>
+                        <a class="menu-bar" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+                            <i class=" fas fa-bars"></i>
+                        </a> 
+                        <div style="background-color: #212529;" class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                            <div class="offcanvas-header">
+                            <h5 class="offcanvas-title text-white" id="offcanvasExampleLabel">All Categories</h5>
+                            <button type="button" class="btn-close bg-white text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            </div>
+                            <!-- nav search  -->
+                            <nav class="navbar navbar-light">
+                                <div class="container-fluid px-3">
+                                <form class="d-flex">
+                                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                                    <button class="btn btn-outline-danger" type="submit">Search</button>
+                                </form>
+                                </div>
+                            </nav>
+                            <div class="offcanvas-body">
+                            <div>
+                                <ul class="p-0">
+                                    <li><a href="#"><i class="fas fa-home me-2 mb-3"></i> Home</a></li>
+                                    <li><a href="#"><i class="fas fa-address-card me-2 mb-3"></i> About</a></li>
+                                    <li><a href="#"><i class="fas fa-layer-group me-2 mb-3"></i> Catagories</a></li>
+                                    <li><a href="#"><i class="fas fa-address-card me-2 mb-3"></i> About</a></li>
+                                    <li><a href="#"><i class="fas fa-sign-in-alt me-2 mb-3"></i> Login/Sign-up</a></li>
+                                    <li><a href="#"><i class="fas fa-at me-2 mb-3"></i> Contact</a></li>
+                                    <li><a href="#"><i class="fab fa-servicestack me-2 mb-3"></i> Services</a></li>
+                                    <li><a href="#"><i class="far fa-comments me-2 mb-3"></i> Feedback</a></li>
+                                </ul>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- logo center -->
+                    <div>
+                        <img width="200" height="45" src="images/logo/Insuarance1.png" alt="">
+                    </div>
+                    <div class="d-flex align-items-center gap-1 gap-lg-3 gap-sm-3 gap-lg-3 gap-md-3 gap-xl-3 gap-xxl-3">
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-dark btn-close-white" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            <i class="fas fa-search"></i>
+                        </button>
+                        <!-- Modal -->
+                        <div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabelaria-hidden="true">
+                            <div class="modal-dialog">
+                            <div class="modal-content bg-dark">
+                                <div class="modal-header px-4">
+                                <h5 class="modal-title text-white" id="exampleModalLabel"> Quarry here what u wanna know </h5>
+                                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                <nav class="navbar navbar-light">
+                                    <div class="container-fluid">
+                                        <form class="d-flex">
+                                        <input class="form-control me-2 px-5" type="search" placeholder="Search" aria-label="Search">
+                                        <button class="btn btn-outline-primary px-5" type="submit">Search</button>
+                                        </form>
+                                    </div>
+                                    </nav>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                        <a class="" href="#"><i class="text-white fs-2 fas fa-shopping-cart"></i></a>
+                    </div>
+                </div>
+        </section>
+
+        <!----------------------------
+        carousel section started
+        --------------------------- -->
+        <section class="mb-lg-5 mt-lg-5">
+            <div id="carouselExampleIndicators" class="carousel slide mt-lg-5 px-0 container rounded" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="row align-items-center">
+                        <div class="col-lg-7 text-white">
+                            <h1 class="mb-8">Nikes's Shoes</h1>
+                            <p class="mb-lg-8 ">This is the best Shoes in the world for people who just want to waste <br>time in front of funky world </p>
+                            <i class="text-warning fas fa-star"></i>
+                            <i class="text-warning fas fa-star"></i>
+                            <i class="text-warning fas fa-star"></i>
+                            <i class="text-warning fas fa-star"></i>
+                            <i class="text-warning far fa-star mb-2"></i>
+                            <h1 style="color:#dd4141" class="mb-3 mt-8">$420/-</h1>
+                            <button type="button" class="btn text-white bg-primary px-5 border rounded-pill">Add To Cart <i class="text-white fas fa-shopping-cart"></i></button>
+                        </div>
+                        <div class="col-lg-5">
+                            <img src="images/shoes/shoe3.png" class="d-block w-100 rotate" alt="...">
+                        </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item ">
+                    <div class="row align-items-center">
+                        <div class="col-lg-7 text-white">
+                            <h1 class="mb-8">Adidous's Shoes</h1>
+                            <p class="mb-lg-8 ">This is the best Shoes in the world for people who just want to waste <br>time in front of funky world </p>
+                            <i class="text-warning fas fa-star"></i>
+                            <i class="text-warning fas fa-star"></i>
+                            <i class="text-warning fas fa-star"></i>
+                            <i class="text-warning fas fa-star"></i>
+                            <i class="text-warning far fa-star mb-2"></i>
+                            <h1 style="color:#dd4141" class="mb-3 mt-8">$420/-</h1>
+                            <button type="button" class="btn text-white bg-primary px-5 border rounded-pill">Add To Cart <i class="text-white fas fa-shopping-cart"></i></button>
+                        </div>
+                        <div class="col-lg-5">
+                            <img src="images/shoes/shoe1.png" class="d-block w-100 rotate" alt="...">
+                        </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="row align-items-center">
+                        <div class="col-lg-7 text-white">
+                            <h1 class="mb-8">Lotto's Shoes</h1>
+                            <p class="mb-lg-8 ">This is the best Shoes in the world for people who just want to waste <br>time in front of funky world </p>
+                            <i class="text-warning fas fa-star"></i>
+                            <i class="text-warning fas fa-star"></i>
+                            <i class="text-warning fas fa-star"></i>
+                            <i class="text-warning fas fa-star"></i>
+                            <i class="text-warning far fa-star mb-2"></i>
+                            <h1 style="color:#dd4141" class="mb-3 mt-8">$420/-</h1>
+                            <button type="button" class="btn text-white bg-primary px-5 border rounded-pill">Add To Cart <i class="text-white fas fa-shopping-cart"></i></button>
+                        </div>
+                        <div class="col-lg-5">
+                            <img src="images/shoes/shoe2.png" class="d-block w-100 rotate" alt="...">
+                        </div>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon border border-3 rounded-circle" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon border border-3 rounded-circle" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+          </section>
+    </header>
+    <!-----------------------
+    Main part is here 
+    ---------------------- -->
+    <main>
+        <!-- product section  -->
+        <section class="container">
+            <div class="d-flex justify-content-center mt-5">
+                <a class="text-decoration-none underline-hover mb-5 text-warning" href=""><h2>PRODUCT:</h2></a>
+            </div>
+            <!-- categories  -->
+            <div class="mb-4">
+                <div class="row align-items-start">
+                    <div class="col border bg-dark ">
+                      <a class="text-decoration-none text-white " href="#">Go To-Shoes :</a>
+                    </div>
+                    <div class="col border bg-dark">
+                      <a class="text-decoration-none text-white" href="#">Men Cloth :</a>
+                    </div>
+                    <div class="col border bg-dark">
+                      <a class="text-decoration-none text-white" href="#">Women Cloth :</a>
+                    </div>
+                    <div class="col border bg-dark">
+                      <a class="text-decoration-none text-white" href="#">Mobile Phones :</a>
+                    </div>
+                    <div class="col border bg-dark">
+                      <a class="text-decoration-none text-white" href="#">Hand Watch :</a>
+                    </div>
+                    <div class="col border bg-dark">
+                      <a class="text-decoration-none text-white" href="#">Address Area :</a>
+                    </div>
+                  </div>
+            </div>
+        </section>
+        <!-- shoes  -->
+        <section class="container">
+            <div>
+                <h2>Shoes</h2>
+            </div>
+            <div>
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 g-4">
+                    <div class="col">
+                      <div class="card">
+                        <img src="images/shoes/shoe1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card">
+                        <img src="images/shoes/shoe1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card">
+                        <img src="images/shoes/shoe1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card">
+                        <img src="images/shoes/shoe1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+    <!-- link with js file -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -105,11 +105,8 @@ body{
     }
     .for-alignment{
         margin-top:50px;
-    }
-
-
-    /* i dont know */
-    /* The heart of the matter */
-          
-     
+    }     
+}
+.to-justfy{
+    text-align: justify;
 }
